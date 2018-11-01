@@ -97,6 +97,7 @@ table {
 
 .code {
   background: #2db34a;
+  background: linear-gradient(to bottom right, #55BF94, #397F63);
   border-radius: 6px;
   color: #fff;
   text-align: center;

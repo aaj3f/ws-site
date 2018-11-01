@@ -51,6 +51,15 @@ table {
 
 /*
   ========================================
+  Body Background
+  ========================================
+*/
+
+div.body-container {
+}
+
+/*
+  ========================================
   Grid
   ========================================
 */
@@ -103,7 +112,7 @@ table {
   text-align: center;
   position: relative;
   box-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
-  transition: background-color 0.5s ease;
+  transition: background 0.5s ease;
 }
 
 /*
@@ -169,7 +178,7 @@ a {
 */
 
 .code:hover {
-  background-color: #F486FF;
+  background: linear-gradient(to bottom right, #F486FF, #7A437F);
 }
 
 /*

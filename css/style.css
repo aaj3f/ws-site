@@ -209,9 +209,25 @@ a {
   margin: 10px auto;
 }
 
-nav h3 {
+.nav ul {
+  text-transform: capitalize;
+  margin: 0;
+  margin: 0;
+}
+
+.nav li {
   display: inline-block;
-  margin: 0 30px;
+}
+
+.nav a {
+  margin: auto 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: letter-spacing 0.3s ease;
+}
+
+.nav a:hover {
+  letter-spacing: 3px;
 }
 
 /*
